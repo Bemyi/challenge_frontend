@@ -79,6 +79,7 @@ const Configuration = () => {
     <>
       <div className="content">
         <div className="container">
+          <h1 style={{ color: "#3D3E40", fontSize: "32px" }}>Configuración</h1>
           <div className="row">
             <div className="col-md-6">
               {info.map((link, index) => (
