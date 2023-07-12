@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import DropdownNavLink from "./Task/DropdownNavLink";
+import WeatherAPI from "./Task/WeatherAPI";
 
 const VerticalNavbar = () => {
   const navLinks = [
@@ -49,6 +50,7 @@ const VerticalNavbar = () => {
         <hr />
         <p style={{ color: "white" }}>(0221) 429-448/4509</p>
         <p style={{ color: "white" }}>pa@es.gov.ar</p>
+        <WeatherAPI />
       </nav>
     </div>
   );

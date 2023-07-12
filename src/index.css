@@ -23,7 +23,7 @@ code {
   .navbar {
     float: left;
     width: 12%;
-    height: 100vh;
+    height: 103vh;
     align-items: flex-start;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
   }
@@ -68,4 +68,11 @@ p {
 .icon {
   margin-right: 20px;
   color: #12416f;
+}
+
+.table-bordered > tbody > tr:nth-child(odd) > td {
+  background-color: rgba(18, 65, 111, 1);
+}
+.table-bordered > tbody > tr:nth-child(odd) > th {
+  background-color: rgba(18, 65, 111, 1);
 }
