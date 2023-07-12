@@ -22,8 +22,8 @@ code {
   }
   .navbar {
     float: left;
-    width: 12%;
-    height: 103vh;
+    width: 13%;
+    height: 107vh;
     align-items: flex-start;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
   }
@@ -61,18 +61,11 @@ p {
 
 .navbar2 {
   float: right;
-  width: 88%;
+  width: 87%;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .icon {
   margin-right: 20px;
   color: #12416f;
-}
-
-.table-bordered > tbody > tr:nth-child(odd) > td {
-  background-color: rgba(18, 65, 111, 1);
-}
-.table-bordered > tbody > tr:nth-child(odd) > th {
-  background-color: rgba(18, 65, 111, 1);
 }

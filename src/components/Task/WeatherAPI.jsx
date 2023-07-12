@@ -23,6 +23,9 @@ const WeatherAPI = () => {
               &deg;C
             </p>
             <p style={{ color: "white" }}>
+              <strong>Zona: </strong> {weather.timezone}
+            </p>
+            <p style={{ color: "white" }}>
               <strong>GMT {weather.timezone_abbreviation}</strong>
             </p>
           </>
