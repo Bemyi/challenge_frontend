@@ -37,7 +37,8 @@ const Configuration = () => {
     },
     {
       title: "Reglas Presupuestarias",
-      description: "Administrar la información de Reglas Presupuestarias",
+      description:
+        "Administrar la información de Reglas Presupuestarias para la etapa de Formulación y Programación",
       subtitles: [],
     },
   ];
@@ -49,12 +50,12 @@ const Configuration = () => {
       subtitles: [],
     },
     {
-      title: "Causas de Desvíos",
+      title: "Unidades Ejecutoras",
       description: "Administrar la información de Unidades Ejecutoras",
       subtitles: [],
     },
     {
-      title: "Clasificadores Primarios",
+      title: "Causas de Desvíos",
       description:
         "Administrar la información de las Causas Operativas, Financieras y conclusiones",
       subtitles: ["Financieras", "Operativas", "Conclusiones"],
@@ -68,11 +69,6 @@ const Configuration = () => {
         "Gastos Prioritarios",
         "Motivos Reglas Presupuestarias",
       ],
-    },
-    {
-      title: "Reglas Presupuestarias",
-      description: "Administrar la información de Reglas Presupuestarias",
-      subtitles: [],
     },
   ];
   return (

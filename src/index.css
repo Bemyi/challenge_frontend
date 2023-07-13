@@ -23,7 +23,7 @@ code {
   .navbar {
     float: left;
     width: 13%;
-    height: 107vh;
+    height: 111vh;
     align-items: flex-start;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
   }
